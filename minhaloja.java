@@ -8,6 +8,9 @@ public class minhaloja {
 		// TODO Auto-generated method stub
 		
 		carro meucarro = new carro();
+		drone meudrone = new drone();
+		caminhao meucaminhao = new caminhao();
+		
 		
 		Scanner sc = new Scanner(System.in);
 		

@@ -1,0 +1,76 @@
+package aula;
+
+public class veiculo {
+
+	private String cor; 
+	private String marca;
+	private String modelo;
+	private String combustivel;
+	private Integer peso;
+	private boolean ligado;
+	
+	public veiculo(String cor, String marca, String modelo, String combustivel, boolean ligado, Integer peso) {
+	
+		
+		this.cor = cor;
+		this.marca = marca;
+		this.modelo = modelo;
+		this.combustivel = combustivel;
+		this.peso = peso;
+	
+}
+	
+	 
+	public String getCor() {
+		return cor;
+	}
+	
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+	
+	public String getMarca() {
+		return marca;
+	}
+	
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	
+	public String getModelo() {
+		return modelo;
+	}
+	
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	
+	public String getCombustivel() {
+		return combustivel;
+	}
+	
+	public void setCombustivel(String combustivel) {
+		this.combustivel = combustivel;
+	}
+	
+	public boolean isLigado() {
+		return ligado;
+	}
+	
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+
+	public Integer getPeso() {
+		return peso;
+	}
+
+
+	public void setPeso(Integer peso) {
+		this.peso = peso;
+	}
+	
+	
+	
+}
